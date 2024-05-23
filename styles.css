@@ -62,23 +62,23 @@ body {
 }
 .description {
     color: white;
-    margin: 20px 0;
     text-align: center;
-    padding: 60px;
+    padding: 120px;
 }
 .boxes {
     position: absolute;
     left: 250px;
     right: 0;
-    bottom: -110px;
+    bottom: -80px;
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
 }
 .box {
     background-color: #B39D73;
-    padding: 30px;
+    padding: 15px;
     margin: 10px;
+    margin-left: 50px;
     text-align: left;
     color: white;
     flex: 1;
@@ -87,4 +87,54 @@ body {
 .box p {
     font-size: 10px;
     text-align: left;
+}
+
+.section{
+margin-top: 200px;
+
+}
+
+.footer-container{
+    margin-top: 200px;
+    background-image: url('/img/footer.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.f-container{
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.f-box{
+    color: white;
+}
+
+.f-box div{
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.f-box p strong{
+    letter-spacing: 10px;
+    
+}
+
+.f-box strong{
+    color: #B39D73;
+}
+
+.w-one span{
+    margin-right: 10px;
+}
+
+.w-two span{
+    margin-right: 10px;
+    color: #B39D73;
 }
