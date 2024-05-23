@@ -1,0 +1,90 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: relative;
+    background-image: url('/img/hero.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+
+.header p{
+    text-align: right;
+    color: white;
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+   color: #B39D73;
+}
+.logo strong {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px ;
+ }
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links a:hover {
+    color: #B39D73;
+}
+.description {
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+    padding: 60px;
+}
+.boxes {
+    position: absolute;
+    left: 250px;
+    right: 0;
+    bottom: -110px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.box {
+    background-color: #B39D73;
+    padding: 30px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    flex: 1;
+}
+
+.box p {
+    font-size: 10px;
+    text-align: left;
+}

@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    .logo{
+        margin-left: 10px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+
+    .header p{
+        margin-right: 5px;
+    }
+
+    .description {
+        padding: 20px;
+    }
+
+    .nav-links a {
+        color: #000000;
+    }
+
+    .boxes {
+        position: unset;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
