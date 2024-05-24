@@ -72,7 +72,7 @@ body {
 }
 .boxes {
     position: absolute;
-    left: 100px;
+    left: 250px;
     right: 0;
     bottom: -80px;
     display: flex;
