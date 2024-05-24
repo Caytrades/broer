@@ -89,6 +89,7 @@
         display: flex;
        flex-wrap: wrap;
        max-width: unset;
+       margin-bottom: 20px;
     }
 
     .info{
@@ -124,6 +125,34 @@
         height: 2px;
         padding: 101px;
         border: solid #B39D73 3px;
+    }
+
+    .textt{
+        margin-left: 2px; 
+        width: 100%;
+    }
+
+    .next-container{
+        max-width: unset;
+        margin-bottom: 20px;
+    }
+
+    .n-container{
+        flex-wrap: wrap-reverse;
+    }
+
+    .tiny-box{
+        max-width: 360px;
+        margin-left: 10px;
+    }
+
+    .last-text{
+        margin-left: 2px; 
+        width: 100%;
+    }
+
+    .d-container{
+        margin-bottom: unset;
     }
     
 }
