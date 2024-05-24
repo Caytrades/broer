@@ -22,6 +22,7 @@
 
     .top-header {
         margin-bottom: 50px;
+        margin-top: 15px;
     }
     
     .navbar .navbar-toggler{
@@ -82,6 +83,47 @@
 
     .f-box{
         margin-bottom: 30px;
+    }
+
+    .c-container{
+        display: flex;
+       flex-wrap: wrap;
+       max-width: unset;
+    }
+
+    .info{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 540px;
+    }
+        
+    .image-container {
+        z-index: 1;
+    }
+
+    .image-container img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .info-name{
+        margin-top: 30px;
+    }
+    
+    
+    .text {
+        margin-left: 2px; 
+        width: 100%;
+    }
+
+    .border-line {
+        position: absolute;
+        top: 2%;
+        left: 5px;
+        width: 0%;
+        height: 2px;
+        padding: 101px;
+        border: solid #B39D73 3px;
     }
     
 }
