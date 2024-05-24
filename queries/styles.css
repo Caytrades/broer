@@ -7,12 +7,38 @@
         margin-right: 0;
     }
 
-    .header p{
-        margin-right: 5px;
+    .header-container{
+        max-height: 650px;
+    }
+
+    .h-text{
+        display: none;
     }
 
     .description {
-        padding: 20px;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .top-header {
+        margin-bottom: 50px;
+    }
+    
+    .navbar .navbar-toggler{
+        border: unset;
+    }
+
+   .navbar-toggler .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .description h4{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 35px;
+        max-width: 100px;
+        margin-left: 30px;
+        font-weight: 700;
     }
 
     .nav-links a {
@@ -20,14 +46,32 @@
     }
 
     .boxes {
-        position: unset;
+        position: relative;
+        margin-left: 30px;
+        left: unset;
         display: flex;
         flex-wrap: wrap;
+        bottom: 0px;
     }
+
     .box{
-        padding: 50px;
-        margin-left: 0;
+        width: 300px;
+        padding: 27px;
+        max-height: 200px;
     }
+
+    .b-container{
+        padding: 0;
+    }
+
+    .arrow{
+        padding: 0;
+    }
+
+    .section{
+        margin-top: 300px;
+    }
+        
 
     .f-container{
         padding: 100px;
@@ -41,3 +85,4 @@
     }
     
 }
+
