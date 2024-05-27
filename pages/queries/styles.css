@@ -1,0 +1,76 @@
+@media (max-width: 992px) {
+    .logo{
+        margin-left: 10px;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+
+    .header-container{
+        max-height: 580px;
+    }
+
+    .h-text{
+        display: none;
+    }
+
+    .description {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .top-header {
+        margin-bottom: 50px;
+        margin-top: 15px;
+    }
+    
+    .navbar .navbar-toggler{
+        border: unset;
+    }
+
+   .navbar-toggler .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .description h4{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        max-width: 100px;
+        margin-left: 30px;
+        font-weight: 700;
+    }
+
+    .nav-links a {
+        color: #000000;
+    }
+
+
+    .section{
+       margin-top: unset;
+    }
+        
+
+    .f-container{
+        padding: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-box{
+        margin-bottom: 30px;
+    }
+
+
+    .c-container{
+        display: flex;
+        gap: 130px;
+        justify-content: center;
+        margin-bottom: 145px;
+        flex-wrap: wrap;
+    }
+    
+}
+
