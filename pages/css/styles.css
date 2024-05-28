@@ -73,7 +73,11 @@ color: #B39D73;
 }
 
 .section{
-    margin-top: 200px;
+    margin-top: 150px;
+}
+
+.about-section{
+    margin-top: 50px;
 }
 
 /* Corporate Section */
@@ -219,8 +223,6 @@ color: #B39D73;
 }
 
 
-
-
 .image-container {
     position: relative; 
     flex: 0 0 auto; 
@@ -231,7 +233,6 @@ color: #B39D73;
     max-width: 100%; 
     height: auto;
 }
-  
   
 
 .ref{
@@ -285,7 +286,292 @@ color: rgba(0, 0, 0, 0.405);
 font-size: 18px;
 }
 
+/* About Section */
+.about-container{
+    display: flex;
+   gap: 100px;
+    justify-content: center;
+    margin-bottom: 145px;
+    max-width: 1500px;
+}
 
+.t-info{
+    position: relative;
+}
+
+
+.t-img{
+    position: relative; 
+    flex: 0 0 auto; 
+    z-index: 1;
+}
+
+.b-line{
+    position: absolute;
+    top: 3%;
+    left: 30px;
+    width: 20%;
+    height: 2px;
+    padding: 96px;
+    border: solid #B39D73 3px;
+}
+
+.a-content{
+    max-width: 686px;
+    background-color: #bebcbc37;
+    padding: 54px;
+}
+
+.a-content h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ls{
+    letter-spacing: 10px;
+}
+
+.a-text{
+    color: rgba(0, 0, 0, 0.405); 
+}
+
+/* About Second Section */
+
+.t-container{
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.at-container{
+   display: flex;
+   flex-direction: column;
+}
+
+.at-container h5{
+    font-weight: 700;
+}
+
+.t-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 40px;
+    background-color: #bebcbc37;
+    max-width: 1200px;
+}
+
+.icon-box{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.icon-box i{
+    color: white;
+    background-color: #B39D73;
+    padding: 10px;
+}
+
+.icon-box p{
+    color: rgb(13, 32, 88);
+    font-weight: 700;
+}
+
+.reference{
+    background-color: #bebcbc37;
+    max-width: 1200px;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.405);
+    margin-bottom: 40px; 
+}
+
+.reference h4{
+color: black;
+font-weight: 700;
+font-size: 30px;
+}
+
+.reference h6{
+    color: #B39D73;
+    font-weight: 500;
+}
+
+.tt-btn{
+    background-color: #B39D73;
+    padding: 10px;
+    color: white;
+    max-width: 201px;
+    border: none;
+}
+
+/* Career Section  */
+
+.brown-box{
+    background-color: #bebcbc37;
+    max-width: 500px;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.405);
+}
+
+.brown-box h4{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.at-btn{
+    display: flex;
+    background-color: #B39D73;
+    max-width: 217px;
+}
+
+.at-btn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.at-btn i{
+    color: white;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.borderrr-line{
+    position: absolute;
+    top: 14%;
+    left: 19px;
+    width: 90%;
+    height: 2px;
+    padding: 60px;
+    border: solid #B39D73 3px;
+}
+
+.tc-h4{
+font-weight: 700;
+font-size: 18px;
+}
+
+.tc-p{
+    color: rgba(0, 0, 0, 0.405);
+}
+
+/* Career Last Section */
+
+.ad-container{
+    display: flex;
+    justify-content: center;
+}
+
+.d-info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    gap: 60px;
+}
+
+.ic-container {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+
+.ic-image-container {
+    position: relative; 
+    z-index: 1;
+    padding: 10px;
+    margin-top: 31px;
+}
+
+.ic-image-container img {
+    max-width: 100%; 
+    height: auto;
+}
+  
+
+.ic-ref{
+    font-weight: 700;
+}
+
+.ic-line {
+    position: absolute;
+    top: 14%;
+    left: 25px;
+    width: 90%;
+    height: 2px;
+    padding: 113px;
+    border: solid #B39D73 3px;
+}
+
+.ic-info-name{
+    margin-top: 20px;
+}
+
+.ic-info-name h4{
+    font-weight: 700;
+    font-size: 31px;
+    text-align: right;
+
+}
+
+.ic-info-name p{
+    color: #B39D73;
+    text-align: right;
+}
+
+
+.lt{
+    width: 660px;
+}
+
+.lt-content{
+    padding: 20px;
+    background-color: #bebcbc37;
+    margin-bottom: 20px;
+}
+
+.t-btn{
+    background-color: #B39D73;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.lt-content p{
+color: rgba(0, 0, 0, 0.405); 
+font-size: 18px;
+}
+
+/* Contact Section */
+
+.contact-text{
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.form-container{
+    padding: 20px;
+    background-color: #bebcbc37;
+    max-width: 800px;
+} 
+
+.form-container form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.form-container input{
+    padding: 10px;
+    width: 300px;
+}
+
+.form-container textarea{
+    height: 150px;
+}
+
+.form-container input, textarea{
+    border: none;
+}
 /*Footer Section*/
 
 .footer-container{

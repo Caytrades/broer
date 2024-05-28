@@ -63,14 +63,79 @@
         margin-bottom: 30px;
     }
 
+    .section{
+        margin-top: 20px;
+    }
 
     .c-container{
         display: flex;
         gap: 130px;
         justify-content: center;
-        margin-bottom: 145px;
+        margin-bottom: 50px;
         flex-wrap: wrap;
     }
+
+    .info{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 540px;
+    }
+
+    .d-container{
+        display: unset;
+    }
+
+    .last-text{
+        margin-left: unset;
+    }
+
+    .t-btn{
+        margin-left: 20px;
+    }
+
+    .ad-container{
+        flex-wrap: wrap;
+    }
+
+    .contact-text{
+        margin-right: unset;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .tc-h4{
+        margin-left: 10px;
+
+    }
+
+    .tc-p{
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
     
+    .d-info{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 350px;
+    }
+
+    .about-container{
+        gap: 10px;
+        flex-wrap: wrap;
+        max-width: 360px;
+        margin-left: 15px;
+    }
+
+    .ls{
+        font-size: 10px;
+    }
+
+    .t-container{
+        margin-left: 5px;
+    }
+
+    .t-content{
+    grid-template-columns: repeat(1, 1fr);
+    }
 }
 
